@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZWQRCodeModule_Example' do
+  pod 'ZWQRCodeModule', :path => '../'
+
+  target 'ZWQRCodeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
