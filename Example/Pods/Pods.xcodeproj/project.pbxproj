@@ -23,7 +23,6 @@
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
 		2DFE9BC4F7D5E291B89F4F7C114FE5D8 /* ZWQRCodeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5491BE4BB4AFBEF5C57C43629C21F11 /* ZWQRCodeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BFC8A0988775FBD3A158657F8E9FED0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6138617A3A4F5E7D3EE35743653F989 /* ReplaceMe.swift */; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F74143379E1AAF2091E8017043C0039 /* Pods-ZWQRCodeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B6C24E4E5D38607EE48FA5FDD37C2D /* Pods-ZWQRCodeModule_Example-dummy.m */; };
 		4021D863B23E15F47D53EF28E8951831 /* XYScanServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0037DC439D2F94148FBFF8FA3C46BD6 /* XYScanServer.swift */; };
@@ -106,7 +105,7 @@
 /* Begin PBXFileReference section */
 		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		0287A44C32F3F7B32307720E3B4B25F1 /* Pods_ZWQRCodeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZWQRCodeModule_Tests.framework; path = "Pods-ZWQRCodeModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0287A44C32F3F7B32307720E3B4B25F1 /* Pods_ZWQRCodeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWQRCodeModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
@@ -118,17 +117,17 @@
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1EE12A735362FF3EE51E4122BF0E80A4 /* scan_open_light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_open_light@3x.png"; path = "ZWQRCodeModule/Assets/scan_open_light@3x.png"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2101559BE1107562B983EDB6ABB84310 /* ZWQRCodeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZWQRCodeModule-Info.plist"; sourceTree = "<group>"; };
 		2333C2D599D670CAFF0134D3BB38BC7D /* XYImageAuthorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYImageAuthorManager.swift; path = ZWQRCodeModule/Classes/XYImageAuthorManager.swift; sourceTree = "<group>"; };
 		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2ED224C931CF677C6EBE8D00C3350A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3676FDF4D074B54AA00EC40B105D0D7D /* Pods_ZWQRCodeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZWQRCodeModule_Example.framework; path = "Pods-ZWQRCodeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED224C931CF677C6EBE8D00C3350A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3676FDF4D074B54AA00EC40B105D0D7D /* Pods_ZWQRCodeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWQRCodeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		3833241255984BD5A96F9AD1E402A6B8 /* Pods-ZWQRCodeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWQRCodeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		3ED83F9A05FC8D76087534436A5B713E /* ZWQRCodeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZWQRCodeModule.framework; path = ZWQRCodeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40D33FF190DB63D98F148EFEF11D856E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3ED83F9A05FC8D76087534436A5B713E /* ZWQRCodeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZWQRCodeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D33FF190DB63D98F148EFEF11D856E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4D5398FB25D995F52F3B38A7B925BB21 /* ZWQRCodeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZWQRCodeModule.modulemap; sourceTree = "<group>"; };
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4FEB5BAF88CE87B14FD7F463148483DA /* Pods-ZWQRCodeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWQRCodeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -146,19 +145,18 @@
 		98F7DB70C6EE7A951D995CD73EBA8C21 /* scan_box@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_box@2x.png"; path = "ZWQRCodeModule/Assets/scan_box@2x.png"; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		A6359E1C536954AB2EFB7295C3B42CBB /* Pods-ZWQRCodeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZWQRCodeModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		AD9C87108EA49124DDEDEDD650EC7944 /* Pods-ZWQRCodeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWQRCodeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		B6138617A3A4F5E7D3EE35743653F989 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZWQRCodeModule/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B756666E89A7D73494991C11D6C66C7F /* ZWQRCodeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWQRCodeModule-prefix.pch"; sourceTree = "<group>"; };
 		BF58286B1FDECC292114E554101DC196 /* ZWQRCodeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZWQRCodeModule-dummy.m"; sourceTree = "<group>"; };
 		C0914E76F7FC8A7AD417AF1179383610 /* Pods-ZWQRCodeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWQRCodeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C12640A14E02D1DD6971D60F158624E4 /* Pods-ZWQRCodeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZWQRCodeModule_Example.modulemap"; sourceTree = "<group>"; };
-		C1E148EC72275D8F339EFF0ED30E55C1 /* ZWQRCodeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZWQRCodeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1E148EC72275D8F339EFF0ED30E55C1 /* ZWQRCodeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZWQRCodeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5C16964E1F4EB3E91F9711C07DE7255 /* Pods-ZWQRCodeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZWQRCodeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C6B6C24E4E5D38607EE48FA5FDD37C2D /* Pods-ZWQRCodeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZWQRCodeModule_Example-dummy.m"; sourceTree = "<group>"; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
@@ -166,7 +164,7 @@
 		CD144064977489BFFA54B7182BA2CAFC /* scan_close_light@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_close_light@2x.png"; path = "ZWQRCodeModule/Assets/scan_close_light@2x.png"; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		D2392822624420FD5885FCF662E897F4 /* scan_close_light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_close_light@3x.png"; path = "ZWQRCodeModule/Assets/scan_close_light@3x.png"; sourceTree = "<group>"; };
-		D4D060113AF4BB4074352E3DA4536589 /* ZWQRCodeModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZWQRCodeModule.bundle; path = "ZWQRCodeModule-ZWQRCodeModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D060113AF4BB4074352E3DA4536589 /* ZWQRCodeModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWQRCodeModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5491BE4BB4AFBEF5C57C43629C21F11 /* ZWQRCodeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWQRCodeModule-umbrella.h"; sourceTree = "<group>"; };
 		DC557974055A3183DDC1FA5709FF9541 /* Pods-ZWQRCodeModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWQRCodeModule_Example-Info.plist"; sourceTree = "<group>"; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
@@ -254,7 +252,6 @@
 		1A695631DDB400F6F6D757D17064038A /* ZWQRCodeModule */ = {
 			isa = PBXGroup;
 			children = (
-				B6138617A3A4F5E7D3EE35743653F989 /* ReplaceMe.swift */,
 				67CBBD283C331546576162C55ED5187B /* XYAlertViewManager.swift */,
 				2333C2D599D670CAFF0134D3BB38BC7D /* XYImageAuthorManager.swift */,
 				EBEB1CAA4C84CAFAF808C401AB60E85C /* XYMacros.swift */,
@@ -331,7 +328,6 @@
 				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
 				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -712,7 +708,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFC8A0988775FBD3A158657F8E9FED0 /* ReplaceMe.swift in Sources */,
 				F5B686BCEE7C4C84488C048E67F6B1ED /* XYAlertViewManager.swift in Sources */,
 				765125CD63BD5386B3397743DCD9AE66 /* XYImageAuthorManager.swift in Sources */,
 				148982B14B1D90D80A59CEBEFBEBEC29 /* XYMacros.swift in Sources */,
@@ -1107,8 +1102,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
