@@ -7,36 +7,25 @@
 #
 
 Pod::Spec.new do |s|
+    
   s.name             = 'ZWQRCodeModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZWQRCodeModule.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '0.0.1'
+  s.summary          = '个人Swfit版本的扫码库ZWQRCodeModule.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 个人Swfit版本的扫码库ZWQRCodeModule，提供扫码和识别图片中二维码，以及基于扫码的其他功能。
                        DESC
-
   s.homepage         = 'https://github.com/x-zzwang/ZWQRCodeModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'x-zzwang' => '17628048484@163.com' }
   s.source           = { :git => 'https://github.com/x-zzwang/ZWQRCodeModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
   s.source_files = 'ZWQRCodeModule/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZWQRCodeModule' => ['ZWQRCodeModule/Assets/*.png']
-  # }
-
+  s.resource_bundles = {
+      'ZWQRCodeModule' => ['ZWQRCodeModule/Assets/*.png']
+  }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
+  
 end
