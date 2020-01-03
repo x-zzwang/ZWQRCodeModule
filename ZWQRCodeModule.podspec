@@ -20,7 +20,7 @@ TODO: 个人Swfit版本的扫码库ZWQRCodeModule，提供扫码和识别图片�
   s.author           = { 'x-zzwang' => '17628048484@163.com' }
   s.source           = { :git => 'https://github.com/x-zzwang/ZWQRCodeModule.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'ZWQRCodeModule/Classes/**/*'
+  s.source_files = "Classes", "ZWQRCodeModule/*.{swift}"
   s.resource_bundles = {
       'ZWQRCodeModule' => ['ZWQRCodeModule/Assets/*.png']
   }
