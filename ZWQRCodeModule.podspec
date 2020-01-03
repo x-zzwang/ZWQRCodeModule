@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     
   s.name             = 'ZWQRCodeModule'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '个人Swfit版本的扫码库ZWQRCodeModule.'
   s.description      = <<-DESC
 TODO: 个人Swfit版本的扫码库ZWQRCodeModule，提供扫码和识别图片中二维码，以及基于扫码的其他功能。
@@ -20,11 +20,14 @@ TODO: 个人Swfit版本的扫码库ZWQRCodeModule，提供扫码和识别图片�
   s.author           = { 'x-zzwang' => '17628048484@163.com' }
   s.source           = { :git => 'https://github.com/x-zzwang/ZWQRCodeModule.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.3'
-  s.source_files = 'ZWQRCodeModule/Classes/*.swift'
+  s.source_files = 'ZWQRCodeModule/Classes/**'
   s.resource_bundles = {
       'ZWQRCodeModule' => ['ZWQRCodeModule/Assets/*.png']
   }
   s.pod_target_xcconfig = {'SWIFT_VERSION'=>'4.0'}
+  s.exclude_files = [
+    'ZWQRCodeModule/Classes/XYScanViewController.swift',
+  ]
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry'

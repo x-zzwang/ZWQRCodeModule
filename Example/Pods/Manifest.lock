@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - ZWQRCodeModule (0.0.1):
+  - ZWQRCodeModule (0.0.3):
     - Masonry
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ZWQRCodeModule: 04f877e6dd422d54db89f4b2bf4f7a3837a4de40
+  ZWQRCodeModule: 9d52fd25a1c2aba31d04cbfc9a8bca31ea3bf707
 
 PODFILE CHECKSUM: 17932ecab4a3bd7e1e443c2dd64274d56542df02
 

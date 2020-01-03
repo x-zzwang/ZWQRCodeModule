@@ -1,6 +1,6 @@
 {
   "name": "ZWQRCodeModule",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "个人Swfit版本的扫码库ZWQRCodeModule.",
   "description": "TODO: 个人Swfit版本的扫码库ZWQRCodeModule，提供扫码和识别图片中二维码，以及基于扫码的其他功能。",
   "homepage": "https://github.com/x-zzwang/ZWQRCodeModule",
@@ -13,16 +13,19 @@
   },
   "source": {
     "git": "https://github.com/x-zzwang/ZWQRCodeModule.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "9.3"
   },
-  "source_files": "ZWQRCodeModule/Classes/**/*",
+  "source_files": "ZWQRCodeModule/Classes/**",
   "resource_bundles": {
     "ZWQRCodeModule": [
       "ZWQRCodeModule/Assets/*.png"
     ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
   },
   "dependencies": {
     "Masonry": [
