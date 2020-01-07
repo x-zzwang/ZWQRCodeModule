@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     
   s.name             = 'ZWQRCodeModule'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '个人Swfit版本的扫码库ZWQRCodeModule.'
   s.description      = <<-DESC
 TODO: 个人Swfit版本的扫码库ZWQRCodeModule，提供扫码和识别图片中二维码，以及基于扫码的其他功能。

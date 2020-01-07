@@ -113,7 +113,7 @@ class XYScanOptionView : UIView {
 }
 
 ///视图管理类
-class XYScanViewController: UIViewController {
+public class XYScanViewController: UIViewController {
     
     var maskWithHole : CAShapeLayer?
     
@@ -165,7 +165,7 @@ class XYScanViewController: UIViewController {
     }
     
     ///页面生命周期
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.black
         self.view.addSubview(scanBoxView)
@@ -173,18 +173,18 @@ class XYScanViewController: UIViewController {
         self.title = "扫码"
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.viewMode.scanServer.startScan()
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
+    override public func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         self.viewMode.scanServer.cancelScan()
     }
     
     ///布局
-    override func viewWillLayoutSubviews() {
+    override public func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         
         scanBoxView.mas_makeConstraints { (make) in

@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "ZWQRCodeModule.h"
-
 FOUNDATION_EXPORT double ZWQRCodeModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZWQRCodeModuleVersionString[];
 
