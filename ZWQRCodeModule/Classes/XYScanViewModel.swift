@@ -8,7 +8,7 @@
 
 import UIKit
 
-class XYScanViewModel : NSObject {
+public class XYScanViewModel : NSObject {
     
     weak var viewController : UIViewController?
     
@@ -46,11 +46,11 @@ class XYScanViewModel : NSObject {
 ///用户操作事件
 extension XYScanViewModel : XYScanOptionViewDelegate {
     
-    func openPhotoLibrary() {
+    public func openPhotoLibrary() {
         self.selImageServer.startSelImage()
     }
     
-    func switchFlash(_ sender: UIButton) {
+    public func switchFlash(_ sender: UIButton) {
         if !self.canTroch() {
             self.scanServer.deviceInitError()
             return
