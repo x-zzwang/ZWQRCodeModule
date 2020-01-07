@@ -23,7 +23,7 @@ class XYOptionButton : UIButton {
 }
 
 ///扫描操作区
-public protocol XYScanOptionViewDelegate : NSObjectProtocol {
+protocol XYScanOptionViewDelegate : NSObjectProtocol {
     func openPhotoLibrary()
     func switchFlash(_ sender : UIButton)
 }

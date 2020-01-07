@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class XYScanViewModel : NSObject {
+class XYScanViewModel : NSObject {
     
     weak var viewController : UIViewController?
     
