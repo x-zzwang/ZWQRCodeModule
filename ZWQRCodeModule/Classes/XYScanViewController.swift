@@ -24,8 +24,8 @@ class XYOptionButton : UIButton {
 
 ///扫描操作区
 protocol XYScanOptionViewDelegate : NSObjectProtocol {
-    func openPhotoLibrary()
-    func switchFlash(_ sender : UIButton)
+    func delegate_openPhotoLibrary()
+    func delegate_switchFlash(_ sender : UIButton)
 }
 
 class XYScanOptionView : UIView {
@@ -97,13 +97,13 @@ class XYScanOptionView : UIView {
         case kOpenLibrTag: do {
             ///打开相册
             if self.delegate != nil {
-                self.delegate?.openPhotoLibrary()
+                self.delegate?.delegate_openPhotoLibrary()
             }
             }
         case kSweitchFlashTag: do {
             ///切换闪光灯
             if self.delegate != nil {
-                self.delegate?.switchFlash(sender)
+                self.delegate?.delegate_switchFlash(sender)
             }
             }
         default: break

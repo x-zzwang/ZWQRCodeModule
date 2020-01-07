@@ -46,11 +46,11 @@ class XYScanViewModel : NSObject {
 ///用户操作事件
 extension XYScanViewModel : XYScanOptionViewDelegate {
     
-    public func openPhotoLibrary() {
+    public func delegate_openPhotoLibrary() {
         self.selImageServer.startSelImage()
     }
     
-    public func switchFlash(_ sender: UIButton) {
+    public func delegate_switchFlash(_ sender: UIButton) {
         if !self.canTroch() {
             self.scanServer.deviceInitError()
             return
