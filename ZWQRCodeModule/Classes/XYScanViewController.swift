@@ -10,7 +10,7 @@ import UIKit
 import Masonry
 
 ///上下文字对齐的按钮
-class XYOptionButton : UIButton {
+public class XYOptionButton : UIButton {
     
     func updateButtonInset() {
         let interval = CGFloat(10.0)
@@ -23,12 +23,12 @@ class XYOptionButton : UIButton {
 }
 
 ///扫描操作区
-protocol XYScanOptionViewDelegate : NSObjectProtocol {
+public protocol XYScanOptionViewDelegate : NSObjectProtocol {
     func delegate_openPhotoLibrary()
     func delegate_switchFlash(_ sender : UIButton)
 }
 
-class XYScanOptionView : UIView {
+public class XYScanOptionView : UIView {
     
     ///按钮标示
     let kOpenLibrTag = 11
@@ -46,7 +46,7 @@ class XYScanOptionView : UIView {
     }
     
     ///布局
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         let openLibrary : XYOptionButton = self.viewWithTag(kOpenLibrTag) as! XYOptionButton
